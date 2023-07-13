@@ -1,10 +1,14 @@
-# SmartHomeOperations_AirQuality
+# SmartHome_AirQuality_Authentication
 
-#### UseCase: SmartRoom_AirQuality
+#### UseCase: SmartRoom_AirQuality with Authentication
 
 The smart room set up established with zigbee2mqtt which acts as a gateway that connects the zigbee network to mqtt network and the interactions to the smart devices are operated from the fast API. For example, the interactions such as turning on/off the ventilator is based on the air quality in room.
 
 The air quality data such as co2, humidity, and tempertaure is obtained with the scd-30 sensor for analysing the airquality and creating awareness with led notifications in case of higher co2 values in rooms and operate the ventilator with the smart room set up.
+
+This version of API is deployed into NAS and can be accessed only from the institute network and with necessary username and passoword for authentication. The authentication is based on the access token that is valid only for 15 minutes and can be re-generated.  This version of api is used by the students for development purposes.
+
+The url of the API deployed into NAS is https://airquality.se.jku.at/smartroomairquality/docs/
 
 #### API
 
