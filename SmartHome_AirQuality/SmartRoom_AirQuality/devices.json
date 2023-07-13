@@ -1,0 +1,26 @@
+{
+    "Licht": {
+        "device_type": "Lights",
+        "device_room": "0091"
+    },
+    "1": {
+        "device_type": "Lights",
+        "device_room": "1"
+    },
+    "2": {
+        "device_type": "Lights",
+        "device_room": "1"
+    },
+    "testlight0.9965374433872662": {
+        "device_type": "Lights",
+        "device_room": "m2.12"
+    },
+    "testfan0.026021753964434735": {
+        "device_type": "Ventilators",
+        "device_room": "m2.12"
+    },
+    "test0.6346014464752054": {
+        "device_type": "Lights",
+        "device_room": "m.12"
+    }
+}
